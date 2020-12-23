@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+
+@import "./components/_heroexample";
+
+@tailwind utilities;
+
+$primary: #c74b1a;
+
+h1 {
+  color: $primary;
+}
